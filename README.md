@@ -63,13 +63,13 @@ This module consists of 2 threads that run concurrently.
 			
 2. data_Preprocess.py: this is the data preprocessing module and is mainly used the the IDS_main.py module to scale and remove the non numeric data. 
 	
-	csv_editor.py: this module is used to rearrange the columns in the passed csv file, create and save csv files, and delete certain columns so the dataset would match the ones collected by the cicflowmeter
+3. csv_editor.py: this module is used to rearrange the columns in the passed csv file, create and save csv files, and delete certain columns so the dataset would match the ones collected by the cicflowmeter
 	
-	data_prep.py: this was used for preparing the dataset to be used for training
+4. data_prep.py: this was used for preparing the dataset to be used for training
 	
-	model_setup.py: used for training the autoencoder model and classifier models.
-			the models are trained using the CICIDS2017 dataset where all weekday sets were concatenated into a massive dataset. please refer to the original source for more information in the link below.
-			https://www.unb.ca/cic/datasets/ids-2017.html#:~:text=The%20CICIDS2017%20dataset%20consists%20of,are%20publicly%20available%20for%20researchers.
+5. model_setup.py: used for training the autoencoder model and classifier models.
+	- the models are trained using the CICIDS2017 dataset where all weekday sets were concatenated into a massive 		dataset. please refer to the original source for more information in the link below.
+	https://www.unb.ca/cic/datasets/ids2017.html#:~:text=The%20CICIDS2017%20dataset%20consists%20of,are%20publicly%20available%20for%20researchers.
 	
 	
 	
