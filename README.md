@@ -52,16 +52,16 @@ IDS_core('Wi-Fi')
 		
 #Program Components
 
-IDS_main.py: the main body of this project is in this file
+1. IDS_main.py: the main body of this project is in this file
 This module consists of 2 threads that run concurrently. 
-	Thread 1 periodically checks if flows are entered into the flows2.csv file, once it detects flows 
+	- Thread 1 periodically checks if flows are entered into the flows2.csv file, once it detects flows 
 	it will process the csv file by removing the unused fields and non-numeric rows, scale the data, and used the 		trained AE model to predict if the flows exhibit a malicious signature. 
 	The malicious flows are logged into the maliciousFlows.csv file.
 
-	Thread 2 will run the imported cicflowmeter and will update the flows2.csv file so it could be used by thread 1.  
+	- Thread 2 will run the imported cicflowmeter and will update the flows2.csv file so it could be used by thread 1.  
 			
 			
-	data_Preprocess.py: this is the data preprocessing module and is mainly used the the IDS_main.py module to scale 	and remove the non numeric data. 
+2. data_Preprocess.py: this is the data preprocessing module and is mainly used the the IDS_main.py module to scale and remove the non numeric data. 
 	
 	csv_editor.py: this module is used to rearrange the columns in the passed csv file, create and save csv files, and delete certain columns so the dataset would match the ones collected by the cicflowmeter
 	
