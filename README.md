@@ -1,22 +1,22 @@
 # Setting Up
-	- Your environment should have Tensorflow and Keras installed
-	
-	- Need to install the cicflowmeter module 
-		1) Make sure there are no duplicates/conflicts by uninstalling all existing cicflowmeter modules
+Your environment should have Tensorflow and Keras installed
+
+Need to install the cicflowmeter module 
+	1) Make sure there are no duplicates/conflicts by uninstalling all existing cicflowmeter modules
 			```
 			pip uninstall cicflowmeter
 			pip3 uninstall cicflowmeter
 			```
-		2) Clone the Github cicflowmeter repo
+	2) Clone the Github cicflowmeter repo
 			```
 			git clone https://gitlab.com/hieulw/cicflowmeter
 			```
-		3) Go inside the cicflowmeter folder and run the setup 
+	3) Go inside the cicflowmeter folder and run the setup 
 			```
 			cd cicflowmeter
 			python setup.py install
 			```
-		4) If cicflowmeter is installed using pip, you may get a type mismatch error; in which case you will need to go into the flows.py file in the cicflowmeter site-package and replace the decimal casts with float casts in the lines that the error appears 
+	4) If cicflowmeter is installed using pip, you may get a type mismatch error; in which case you will need to go into the flows.py file in the cicflowmeter 	site-package and replace the decimal casts with float casts in the lines that the error appears 
 	
 	- Numpy should be upgraded to version over 1.3.0 otherwise replace line 47 with line 46 in IDS_main.py
 	
