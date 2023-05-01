@@ -3,10 +3,10 @@ Your environment should have Tensorflow and Keras installed
 
 Need to install the cicflowmeter module 
 	1) Make sure there are no duplicates/conflicts by uninstalling all existing cicflowmeter modules
-			```
-			pip uninstall cicflowmeter
-			pip3 uninstall cicflowmeter
-			```
+	```
+	pip uninstall cicflowmeter
+	pip3 uninstall cicflowmeter
+	```
 	2) Clone the Github cicflowmeter repo
 			```
 			git clone https://gitlab.com/hieulw/cicflowmeter
