@@ -26,30 +26,29 @@ python setup.py install
 	
 
 # How to Use
-	1) Switch to your keras environment
+1. Switch to your keras environment
 	
-	2) Go into the project folder
+2) Go into the project folder
 	
-	3) 
-		Find the network interface you are using
-		In Windows command line:
-		```
-		ipconfig
-		```
-		In Linux command line:
-		```
-		ifconfig
-		```
+3) Find the network interface you are using
+In Windows command line:
+```
+ipconfig
+```
+In Linux command line:
+```
+ifconfig
+```
 		
-	4)	If running on command line use the following command with whatever interface you want to listen at after the -i option. use <ctrl + Pause Break> to end the program
-		```
-		python IDS.py -i Wi-Fi
-		```
-		If running through the python interpreter, then open the IDS.py file and enter the interface you want to use as a string parameter into the IDS_core class
-		```
-		IDS_core('Wi-Fi')
-		```
-		sometimes the cicflowmeter will display errors in the command line during runtime, ignore them as they would not interfere with the program execution.
+4. If running on command line use the following command with whatever interface you want to listen at after the -i option. use <ctrl + Pause Break> to end the program
+```
+python IDS.py -i Wi-Fi
+```
+If running through the python interpreter, then open the IDS.py file and enter the interface you want to use as a string parameter into the IDS_core class
+```
+IDS_core('Wi-Fi')
+```
+-sometimes the cicflowmeter will display errors in the command line during runtime, ignore them as they would not interfere with the program execution.
 		
 #Program Components
 
