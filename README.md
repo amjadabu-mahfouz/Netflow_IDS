@@ -69,7 +69,7 @@ This module consists of 2 threads that run concurrently.
 	
 5. model_setup.py: used for training the autoencoder model and classifier models.
 	- the models are trained using the CICIDS2017 dataset where all weekday sets were concatenated into a massive 		dataset. please refer to the original source for more information in the link below.
-	https://www.unb.ca/cic/datasets/ids2017.html#:~:text=The%20CICIDS2017%20dataset%20consists%20of,are%20publicly%20available%20for%20researchers.
+	https://www.unb.ca/cic/datasets/ids-2017.html
 	
 	
 	
